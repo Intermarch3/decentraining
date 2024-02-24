@@ -6,6 +6,8 @@
 ##
 
 import flwr as fl
+import subprocess
+
 
 fl.server.start_server(
     server_address="0.0.0.0:8080",
@@ -13,3 +15,5 @@ fl.server.start_server(
     strategy=fl.server.strategy.FedAvg(),
 )
 
+for i in range(10):
+    subprocess.run(["./script/clientscript.sh"], shell=True)
