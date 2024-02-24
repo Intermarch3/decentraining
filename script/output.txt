@@ -1,0 +1,36 @@
+Parallel mksquashfs: Using 2 processors
+Creating 4.0 filesystem on /media/psf/Home/Documents/decentraining/script/../uploads.squashfs, block size 131072.
+[===================================================================|] 1/1 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments,
+	compressed xattrs, compressed ids
+	duplicates are removed
+Filesystem size 0.33 Kbytes (0.00 Mbytes)
+	92.39% of uncompressed filesystem size (0.36 Kbytes)
+Inode table size 44 bytes (0.04 Kbytes)
+	66.67% of uncompressed inode table size (66 bytes)
+Directory table size 27 bytes (0.03 Kbytes)
+	93.10% of uncompressed directory table size (29 bytes)
+Number of duplicate files found 0
+Number of inodes 2
+Number of files 1
+Number of fragments 1
+Number of symbolic links 0
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 1
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	parallels (1000)
+Number of gids 1
+	parallels (1000)
+Ref of runtime ? [f873715dc2feec3833074bd4b8745363a0e0093746b987b4c8191268883b2463] Your program has been uploaded on aleph.im
+
+Available on:
+  https://aleph.sh/vm/91455dd989c1994ecdd0288e8d32c5ad36b8b5e41266b50af7e999b26c405c38
+  https://sfcv3wmjygmu5toqfchi2mwfvu3lrnpecjtlkcxx5gm3e3calq4a.aleph.sh
+Visualise on:
+  https://explorer.aleph.im/address/ETH/0x9C04D8d9CCDe5793132Fd1aCbe8b9B53883924Cf/message/PROGRAM/91455dd989c1994ecdd0288e8d32c5ad36b8b5e41266b50af7e999b26c405c38
+
