@@ -1,15 +1,86 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Upload new File</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <h1>Upload new File</h1>
-        <form method=post enctype=multipart/form-data>
-            <input type=file name=file>
-            <input type=submit value=Upload>
-        </form>
-    </body>
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upload new File</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000; /* Black */
+    color: #fff; /* White */
+  }
+  .container {
+    width: 100%;
+    max-width: 100%!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+  }
+  form {
+    background-color: #111827; /* Dark Gray */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  input[type="file"] {
+    border: 2px solid #fff; /* White */
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  input[type="submit"] {
+    background-color: #2563EB; /* Blue */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff; /* White */
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #1D4ED8; /* Darker blue */
+  }
+  footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 4px;
+  }
+</style>
+</head>
+<body class="flex flex-col justify-items-center">
+<header class="text-center pt-12">
+    <nav class="flex justify-between items-center px-10 py-4">
+        <a href="#" class="text-xl font-bold">Decentraining</a>
+        <div>
+            <a href="#" class="text-sm px-4">About</a>
+            <a href="#" class="text-sm px-4">Documentation</a>
+            <a href="#" class="bg-blue-600 text-white py-2 px-4 rounded">Test now</a>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <h1 class="text-4xl font-bold mt-10 mb-4">Upload your AI model</h1>
+    <form method="post" enctype="multipart/form-data" class="mb-16">
+        <input type="file" name="file" class="text-black px-4 py-2">
+        <br>
+        <input type="submit" value="Upload and run" class="newsletter-btn mt-4">
+    </form>
+</div>
+<footer>
+    <p class="text-gray-400">2024. Decentraining.</p>
+    <p class="text-gray-400">Made with ❤️ by Tek1 Lyon students</p>
+</footer>
+</body>
 </html>
